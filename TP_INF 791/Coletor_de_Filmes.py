@@ -85,5 +85,5 @@ for page in range(1, total_pages+1):
 df = pd.DataFrame(movie_data)
 
 # Salvar os dados em uma planilha
-df.to_excel(r'C:\Users\Airton\Desktop\Python3\filmes_100_2.xlsx', index=False)
+df.to_excel(r'caminho_do_diretorio\filmes_100_2.xlsx', index=False)
 print('Dados salvos com sucesso!')
